@@ -1,4 +1,4 @@
-function fizzBuzz(start, end) {
+function fizzzBuzz(start, end) {
   let array = [];
   for (start; start <= end; start++) {
     array.push(start);
@@ -16,7 +16,7 @@ function fizzBuzz(start, end) {
   }
   return array;
 }
-console.log(fizzBuzz(3, 15));
+console.log(fizzzBuzz(3, 15));
 /*
 todo lo divisilbe por 3 = fizz
 todos los numeros divisibles por 5 = buzzz 
